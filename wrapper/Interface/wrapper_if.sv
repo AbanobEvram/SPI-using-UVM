@@ -1,0 +1,12 @@
+////////////////////////////////////////////////////////////////////////////////
+// Author: Abanob Evram
+// Description: Wrapper_Interface
+// Date: December, 2024 
+////////////////////////////////////////////////////////////////////////////////
+import wrapper_shared_pkg::*;
+interface wrapper_if (clk);
+	logic MOSI,SS_n,rst_n;
+	logic MISO,MISO_ref;
+	input clk;
+	
+endinterface : wrapper_if

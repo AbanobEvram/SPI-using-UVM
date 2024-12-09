@@ -21,5 +21,6 @@ coverage exclude -du slave_sva -togglenode count_tx
 coverage exclude -du slave_sva -togglenode cs
 coverage save Wrapper_top.ucdb -onexit -du work.Maindesign
 run -all
-quit -sim
-vcover report Wrapper_top.ucdb -details -all -output Wrapper_code_coverage.txt
+
+#quit -sim
+#vcover report Wrapper_top.ucdb -details -all -output Wrapper_code_coverage.txt

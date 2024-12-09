@@ -29,10 +29,10 @@ The Serial Peripheral Interface (SPI) is a high-speed, synchronous serial commun
 * Additional coordination needed for multiple slaves (not used in our design).
 * ************************************************
 # SPI Architecture:
-![SPI_Architecture](https://github.com/AbanobEvram/SPI-using-UVM/blob/main/Photos/Screenshot_1.png)
+![SPI_Architecture](https://github.com/AbanobEvram/SPI-using-UVM/blob/main/Photos/SPI_Architecture.png)
 ***************************************************************************
 # SPI State Diagram:
-![SPI_State_Diagram](https://github.com/AbanobEvram/SPI-using-UVM/blob/main/Photos/Screenshot_2.png)
+![SPI_State_Diagram](https://github.com/AbanobEvram/SPI-using-UVM/blob/main/Photos/SPI_State_Diagram.png)
 *********************************************************
 
 # UVM Structure
@@ -43,7 +43,7 @@ The verification environment comprises three distinct setups:
 3. Slave Environment: Features a passive driver and sequencer, dedicated to monitoring and verifying the Slave's behavior.
 The sequence generation is centralized in the wrapper environment
 ****************************************************************************
-![UVM_Structure](https://github.com/AbanobEvram/SPI-using-UVM/blob/main/Photos/Screenshot_4.png)
+![UVM_Structure](https://github.com/AbanobEvram/SPI-using-UVM/blob/main/Photos/UVM_Structure.png)
 ***************************************************************************
 ## Note:
 * You can check the uvm flow from the report
